@@ -1,0 +1,52 @@
+.nav{
+    padding-top: 50px;
+    float: right;
+    padding-right: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #373C47;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #87A0CE;
+  }
+  
+  nav a.active {
+    background-color: #87A0CE;
+    color: white;
+  }
+
+
+  .icon{
+    padding-top: 50px;
+    float: left;
+    padding-left: 50px;
+  }
+
+  .input{
+    border-color: #E2E9F9;
+    /* border-style: none; */
+  }
+
+  .cards{
+    padding-top: 100px;
+  }
